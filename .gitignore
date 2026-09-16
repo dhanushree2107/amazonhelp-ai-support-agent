@@ -1,0 +1,47 @@
+.env
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Dataset files
+data/twcs.csv
+data/archive/
+data/archive (6)/
+*.zip
+
+# Large generated datasets
+data/processed/*.csv
+data/processed/*.joblib
+
+# Evaluation outputs
+evaluation/*.csv
+evaluation/*.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+
+# Backup files
+*_backup.py
